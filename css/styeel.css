@@ -1,0 +1,80 @@
+body{
+    padding: 0%;
+    margin: 0%;
+    background-image:url(../img/tree-6476331_1920.jpg);
+    font-family: sans-serif;
+    
+    
+}
+.loginbox{
+    width:350px;
+    height: 470px;
+    background-color: rgba(0, 0, 0, 0.808);
+    color:white;
+position: absolute;
+left: 50%;
+top: 50%;
+box-sizing: border-box;
+padding: 70px;
+transform: translate(-50%,-50%);
+    
+}
+.avater{
+    position: absolute;
+    margin-top:  -120px;;
+    left: 36%;
+}
+.h1{
+    text-align: center;
+    margin-top: -10px;
+}
+
+.loginbox input{
+
+    width: 100%;
+   padding:  15px;
+color:white;
+outline: none;
+}
+
+.loginbox input[ type="password"],input[ type="text"]{
+border: none;
+margin: 12px;
+margin-left: -12px;
+background-color:transparent;
+border-bottom: dotted red 1px;
+}
+
+.submit{
+    margin-top: 30px;
+    border-radius: 12px;
+    background-color:teal;
+    outline: none;
+    border: none;
+
+}
+.submit:hover{
+background-color: red;
+transition: 0.9s ease;
+color:white;
+}
+ 
+  .loginbox a{
+      margin: 12px;
+   line-height: 22px;
+    font-size: 13px;
+      color:white;
+      text-decoration: none;
+      cursor: pointer;
+  }
+.an{
+    margin-top: 15px;
+}
+.loginbox a:hover{
+    color: red;}
+
+
+    ::placeholder{
+        color: white;
+    }
+    
